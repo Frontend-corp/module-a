@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Frontend-corp/module-a/issues"
   },
-  "homepage": "https://github.com/Frontend-corp/module-a#readme"
+  "homepage": "https://github.com/Frontend-corp/module-a#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  },
+  { 
+    "transform": [["babelify", { "comments": false }]]
+  }
 }
